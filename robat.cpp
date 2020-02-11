@@ -3,7 +3,7 @@ std::shared_ptr<NetworkTable> vision;
 
 nt::NetworkTableInstance inst;
 
-//Creates entry which can later be assigned to a table, only viewed by rio and dashboard
+//Creates entry which can later be assigned to a table
 nt::NetworkTableEntry driverMode;
 nt::NetworkTableEntry targetYaw;
 
