@@ -40,7 +40,7 @@ void Robot::TeleopPeriodic() {
     }
 
     frc::SmartDashboard::PutBoolean("driverMode", driverMode.GetBoolean(false));
-    frc::SmartDashboard::PutBoolean("targetYaw", targetYaw.GetDouble(0));
+    frc::SmartDashboard::PutNumber("targetYaw", targetYaw.GetDouble(0));
     /* 
      *  Outputs NT entry to dashboard
      *  Important when using NT entry in code to use .GetXxxxx for variable type as shown
